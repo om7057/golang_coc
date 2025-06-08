@@ -38,4 +38,5 @@ func main() {
 	}(myCh, wg) // Responsible for putting vales into the channel
 
 	wg.Wait()
+	
 }
